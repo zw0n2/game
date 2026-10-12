@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포켓몬 뽑기</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <main class="game">
+      <header class="game-header">
+        <h1>포켓몬 뽑기</h1>
+        <p class="description">나의 포켓몬을 뽑아보세요!</p>
+      </header>
+
+      <section class="character-area">
+        <div class="character-card">
+          <div class="image-wrapper">
+            <div class="pokeball"></div>
+            <img class="character-image hidden" src="" alt="" />
+          </div>
+
+          <div class="character-info">
+            <p class="pokemon-number">#000</p>
+            <p class="character-name">이름</p>
+          </div>
+        </div>
+      </section>
+
+      <button class="draw-button">포켓볼 던지기</button>
+    </main>
+  </body>
+</html>
